@@ -1,0 +1,43 @@
+@font-face {
+    font-family: font;
+    src: url(fontes/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(fontes/Roboto/Roboto-BoldItalic.ttf);
+}
+
+
+
+body{
+    background-image: url(imagens/wp1933955.webp);
+    background-repeat: no-repeat;
+    image-resolution: 100%;
+    background-attachment: fixed;
+   
+}
+
+h1{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 100px;
+    text-shadow: 1px 2px 3px #000;
+    font-family: 'font';
+}
+hr{
+background-color: aliceblue;
+height: 1px;
+color: #ffffff;
+
+}
+
+p{
+color: #fff;
+font-size: 40px;
+text-shadow: 1px 2px 3px #000;
+margin-right: 500px;
+font-family: 'font2';
+margin-left: 500px;
+}
+
